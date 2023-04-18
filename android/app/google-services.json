@@ -29,6 +29,13 @@
             {
               "client_id": "283095395659-0i6p55g5lllbur5i8fp59nqctr98se8d.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "283095395659-v8qd8v2mfbde55t7eddchmd54vqq2v4i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ourtube.co.kr.ourtubeOnboardingByMilo"
+              }
             }
           ]
         }

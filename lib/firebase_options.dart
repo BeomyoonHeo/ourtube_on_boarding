@@ -3,7 +3,6 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
-import 'package:ourtube_onboarding_by_milo/utils/env/env.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -52,19 +51,19 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: Env.flutterApiKeyForAndroid,
-    appId: Env.flutterAppIdForAndroid,
-    messagingSenderId: Env.flutterMessageSanderId,
+    appId: '1:283095395659:android:f30539aaef86b8b1804cce',
+    messagingSenderId: '283095395659',
     projectId: 'ourtube-onboarding-by-milo',
     storageBucket: 'ourtube-onboarding-by-milo.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: Env.flutterApiKeyForIos,
-    appId: Env.flutterAppIdForIos,
-    messagingSenderId: Env.flutterMessageSanderId,
+    appId: '1:283095395659:ios:24dc7815a12eaae7804cce',
+    messagingSenderId: '283095395659',
     projectId: 'ourtube-onboarding-by-milo',
     storageBucket: 'ourtube-onboarding-by-milo.appspot.com',
-    iosClientId: Env.flutterIosClientId,
+    iosClientId: '283095395659-v8qd8v2mfbde55t7eddchmd54vqq2v4i.apps.googleusercontent.com',
     iosBundleId: 'ourtube.co.kr.ourtubeOnboardingByMilo',
   );
 }
