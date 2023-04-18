@@ -1,0 +1,6 @@
+workflows:
+  workflow-name:
+    environment:
+      groups:
+        - $android-Testers
+        - $ios-Testers
