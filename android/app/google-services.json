@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "283095395659",
+    "project_id": "ourtube-onboarding-by-milo",
+    "storage_bucket": "ourtube-onboarding-by-milo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283095395659:android:f30539aaef86b8b1804cce",
+        "android_client_info": {
+          "package_name": "ourtube.co.kr.ourtube_onboarding_by_milo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283095395659-0i6p55g5lllbur5i8fp59nqctr98se8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApE_GaaYoRaxO2XsApCthlGJkZrqUgpq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283095395659-0i6p55g5lllbur5i8fp59nqctr98se8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

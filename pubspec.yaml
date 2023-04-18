@@ -1,0 +1,87 @@
+name: ourtube_onboarding_by_milo
+description: ourtube youtube Creator Virtual Investment
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+#http
+  dio: ^5.0.1
+  retrofit: ^4.0.1
+
+#env
+  envied: ^0.3.0
+
+#Paging
+  infinite_scroll_pagination: ^3.2.0
+
+
+#Chart
+  fl_chart: ^0.60.0
+
+#UI
+  flutter_svg: ^0.21.0+1
+  flutter_svg_provider:
+  dots_indicator: ^2.1.0
+  cupertino_icons: ^1.0.2
+
+#Formatter
+  intl: ^0.17.0
+  pattern_formatter: ^2.0.0
+
+#State Manage
+  get: ^4.6.5
+
+#FireBase
+  firebase_core: ^2.7.0
+  cloud_firestore: ^4.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#code generator
+  build_runner: ^2.3.3
+  envied_generator: ^0.3.0
+  retrofit_generator: ^5.0.0+1
+  json_serializable: ^6.6.1
+  json_annotation: ^4.8.0
+
+
+#lintter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+      - assets/fonts/
+      - assets/icons/
+      - assets/mock/
+
+  fonts:
+    - family: pretendard_bold
+      fonts:
+        - asset: assets/fonts/Pretendard-Bold.otf
+
+    - family: pretendard_semiBold
+      fonts:
+        - asset: assets/fonts/Pretendard-SemiBold.otf
+
+    - family: pretendard_regular
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+
+    - family: pretendard_medium
+      fonts:
+        - asset: assets/fonts/Pretendard-Medium.otf
+
