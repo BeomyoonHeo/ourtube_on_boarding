@@ -23,7 +23,7 @@ class HomeScreenScaffold extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               ...header,
-              const SizedBox(height: 25),
+              const SizedBox(height: 24),
               title,
               Expanded(child: body),
             ],
